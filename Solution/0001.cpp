@@ -39,6 +39,18 @@ public:
         return {};
     }
 
+    vector<int> twoSum_v1(vector<int>& nums, int target){
+        for(int i=0; i<nums.size(); i++){
+            int _diff = target - nums[i];
+            for(int j=i+1; j<nums.size(); j++){
+                if(_diff == nums[j]){
+                    return {i,j};
+                }
+            }
+        }
+        return {};
+    }
+
     vector<int> twoSumPractice(vector<int>& nums, int target) {
 
     }
