@@ -9,3 +9,4 @@
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0020.cpp)
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0021.cpp)
 * [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0026.cpp)
+* [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0028.cpp) :star:
