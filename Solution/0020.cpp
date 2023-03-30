@@ -1,4 +1,4 @@
-'''
+/*
 20. Valid Parentheses (https://leetcode.com/problems/valid-parentheses/)
 
 Given a string s containing just the characters \'(\', \')\', \'{\', \'}\', \'[\' and \']\', determine if the input string is valid.
@@ -20,7 +20,13 @@ Input: s = "(]"
 Output: false
 
 Hint: Using stack
-'''
+*/
+
+#include <iostream>  
+#include <map>
+#include <vector>
+#include <string>
+using namespace std;
 
 class Solution {
 public:
@@ -30,6 +36,7 @@ public:
             {']', '['},
             {'}', '{'}
         };
+
         vector<char> v;
         for(int i=0; i<s.length(); i++){
             if(s[i]==')'||s[i]==']'||s[i]=='}'){
@@ -52,9 +59,5 @@ public:
         }else{
             return false;
         }
-    }
-
-    bool isValidPractice(string s) {
-        
     }
 };

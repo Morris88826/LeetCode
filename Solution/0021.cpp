@@ -1,4 +1,4 @@
-'''
+/*
 21. Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 You are given the heads of two sorted linked lists list1 and list2.
@@ -18,7 +18,7 @@ Input: list1 = [], list2 = [0]
 Output: [0]
 
 Hint: can use recursion
-'''
+*/
 
 /**
  * Definition for singly-linked list.
@@ -30,6 +30,16 @@ Hint: can use recursion
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+#include <iostream>  
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(NULL) {}
+    ListNode(int x) : val(x), next(NULL) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
 class Solution {
 public:
 
@@ -88,9 +98,5 @@ public:
         }
 
         return head;
-    }
-
-    ListNode* mergeTwoListsPractice(ListNode* list1, ListNode* list2) {
-        
     }
 };

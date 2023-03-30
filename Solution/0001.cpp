@@ -1,4 +1,4 @@
-'''
+/*
 1. Two Sum (https://leetcode.com/problems/two-sum/)
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -20,7 +20,12 @@ Output: [0,1]
 
 Can you come up with an algorithm that is less than O(n2) time complexity?
 Hint: use hashmap
-'''
+*/
+
+#include <iostream>
+#include <map>
+#include <vector>
+using namespace std;
 
 class Solution {
 public:
@@ -49,9 +54,5 @@ public:
             }
         }
         return {};
-    }
-
-    vector<int> twoSumPractice(vector<int>& nums, int target) {
-
     }
 };

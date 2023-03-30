@@ -1,4 +1,4 @@
-'''
+/*
 14. Longest Common Prefix (https://leetcode.com/problems/longest-common-prefix/description/)
 
 Write a function to find the longest common prefix string amongst an array of strings.
@@ -14,7 +14,13 @@ Output: ""
 Explanation: There is no common prefix among the input strings.
 
 Hint: Can use sort 
-'''
+*/
+
+#include <iostream>  
+#include <algorithm>
+#include <string>
+#include <vector>
+using namespace std;
 
 class Solution {
 public:
@@ -59,9 +65,5 @@ public:
             }
         }
         return result;
-    }
-
-    string longestCommonPrefixPractice(vector<string>& strs){
-        
     }
 };

@@ -1,4 +1,4 @@
-'''
+/*
 26. Remove Duplicates from Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
@@ -37,7 +37,10 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 # Hint: Find non-repetitive elements and move them to their desired index.
 
-'''
+*/
+#include <iostream>  
+#include <vector>
+using namespace std;
 
 class Solution {
 public:
@@ -79,9 +82,4 @@ public:
         }
         return k;
     }
-
-    int removeDuplicatesPractice(vector<int>& nums) {
-
-    }
-
 };
