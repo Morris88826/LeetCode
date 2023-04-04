@@ -171,7 +171,6 @@ class Solution_KMP {
 public:
 
     int strStr(string haystack, string needle) {
-        
         int n = haystack.length();
         int m = needle.length();
 
@@ -180,52 +179,41 @@ public:
         }
 
         // build the pi table
-        vector<int> table(m);
+        vector<int> longest_border(m, 0);
         int prev = 0;
-        int i = 0;
+        int i = 1;
         while(i<m){
-            if(i==0){
-                table[i] = -1;
+            if(needle[i]==needle[prev]){
+                prev += 1;
+                longest_border[i] = prev;
                 i += 1;
             }else{
-                if(needle[i] == needle[prev]){
-                    table[i] = prev;
-                    prev += 1;
+                if(prev == 0){
+                    longest_border[i] = 0;
                     i += 1;
                 }else{
-                    if(prev == 0){
-                        table[i] = -1;
-                        i += 1;
-                    }else{
-                        prev = table[prev-1] + 1;
-                    }
+                    prev = longest_border[prev-1]; // find the longest border with less length
                 }
             }
         }
 
-
-        for(int i=0; i<m; i++){
-            cout << table[i]+1 << " ";
-        }
-
+        // search
         i = 0;
         int j = -1;
         while(i<n){
-            if(haystack[i]==needle[j+1]){
+            if(haystack[i] == needle[j+1]){
                 i += 1;
                 j += 1;
-                if(j+1 == m){
-                    return i-m;
+                if((j+1)==m){
+                    return i - m;
                 }
             }else{
-                if(j!=-1){
-                    j = table[j];
-                }else{
+                if(j == -1){
                     i += 1;
+                }else{
+                    j = longest_border[j]-1;
                 }
             }
         }
         return -1;
-
-    }
 };
