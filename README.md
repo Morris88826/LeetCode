@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions
+## Top Interview Questions (10/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -14,3 +14,4 @@
   - Knuth-Morris-Pratt (KMP) Algorithm: find lps, i.e. longest proper suffix, and build the $\pi$ table
 * [66. Plus One](https://leetcode.com/problems/plus-one/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0066.cpp)
 * [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0069.cpp)
+* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0070.cpp)
