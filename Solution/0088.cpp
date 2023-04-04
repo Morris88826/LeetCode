@@ -38,10 +38,8 @@ public:
 
         int i = 0;
         int j = 0;
-        while(i<m+n || j<n){
-            if(j==n){
-                i += 1;
-            }else if(i-j==m){ 
+        while(j<n){
+            if(i-j==m){
                 nums1[i] = nums2[j];
                 i += 1;
                 j += 1;
