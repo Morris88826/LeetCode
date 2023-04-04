@@ -23,6 +23,7 @@ Hint: Review Rabin-Karp Algorithm
 
 #include <iostream>  
 #include <string>
+#include <vector>
 using namespace std;
 
 class Solution {
@@ -162,5 +163,69 @@ public:
             }
         }
         return -1;
+    }
+};
+
+
+class Solution_KMP {
+public:
+
+    int strStr(string haystack, string needle) {
+        
+        int n = haystack.length();
+        int m = needle.length();
+
+        if(n<m){
+            return -1;
+        }
+
+        // build the pi table
+        vector<int> table(m);
+        int prev = 0;
+        int i = 0;
+        while(i<m){
+            if(i==0){
+                table[i] = -1;
+                i += 1;
+            }else{
+                if(needle[i] == needle[prev]){
+                    table[i] = prev;
+                    prev += 1;
+                    i += 1;
+                }else{
+                    if(prev == 0){
+                        table[i] = -1;
+                        i += 1;
+                    }else{
+                        prev = table[prev-1] + 1;
+                    }
+                }
+            }
+        }
+
+
+        for(int i=0; i<m; i++){
+            cout << table[i]+1 << " ";
+        }
+
+        i = 0;
+        int j = -1;
+        while(i<n){
+            if(haystack[i]==needle[j+1]){
+                i += 1;
+                j += 1;
+                if(j+1 == m){
+                    return i-m;
+                }
+            }else{
+                if(j!=-1){
+                    j = table[j];
+                }else{
+                    i += 1;
+                }
+            }
+        }
+        return -1;
+
     }
 };
