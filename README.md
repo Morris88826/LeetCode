@@ -11,4 +11,4 @@
 * [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0026.cpp)
 * [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0028.cpp) :star:
   - Rabin-Karp Algorithm: Rolling Hash
-  - Knuth-Morris-Pratt (KMP) Algorithm: find lps, i.e. longest proper suffix, and build the pi table
+  - Knuth-Morris-Pratt (KMP) Algorithm: find lps, i.e. longest proper suffix, and build the $\pi$ table
