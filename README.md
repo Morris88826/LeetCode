@@ -15,3 +15,4 @@
 * [66. Plus One](https://leetcode.com/problems/plus-one/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0066.cpp)
 * [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0069.cpp)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0070.cpp)
+* [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0088.cpp)
