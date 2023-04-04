@@ -41,18 +41,15 @@ public:
         while(j<n){
             if(i-j==m){
                 nums1[i] = nums2[j];
-                i += 1;
                 j += 1;
             }else{
                 if(nums1[i]>nums2[j]){
                     nums1.insert(nums1.begin()+i, nums2[j]);
                     nums1.pop_back();
-                    i += 1;
                     j += 1;
-                }else{
-                    i += 1;
                 }
             }
+            i += 1;
         }
     }
 };
