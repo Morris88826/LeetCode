@@ -17,3 +17,5 @@
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0070.cpp)
 * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0088.cpp)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0094.cpp)
+* [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0101.cpp) :star:
+  - Try solve it both recursively and iteratively
