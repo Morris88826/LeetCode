@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (11/145)
+## Top Interview Questions (12/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -16,3 +16,4 @@
 * [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0069.cpp)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0070.cpp)
 * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0088.cpp)
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0094.cpp)
