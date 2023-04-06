@@ -19,3 +19,5 @@
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0094.cpp)
 * [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0101.cpp) :star:
   - Try solve it both recursively and iteratively
+* [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0104.cpp)
+* [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0108.cpp) :star:
