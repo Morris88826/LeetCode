@@ -169,7 +169,6 @@ public:
 
 class Solution_KMP {
 public:
-
     int strStr(string haystack, string needle) {
         int n = haystack.length();
         int m = needle.length();
@@ -216,4 +215,5 @@ public:
             }
         }
         return -1;
+    }
 };
