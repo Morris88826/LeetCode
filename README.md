@@ -26,4 +26,4 @@
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0125.cpp)
 * [136. Single Number](https://leetcode.com/problems/single-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0136.cpp)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0141.cpp)
-* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0160.cpp)
+* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0160.cpp) :star:
