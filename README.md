@@ -27,3 +27,4 @@
 * [136. Single Number](https://leetcode.com/problems/single-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0136.cpp)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0141.cpp)
 * [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0160.cpp) :star:
+* [169. Majority Element](https://leetcode.com/problems/majority-element/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0169.cpp)
