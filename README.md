@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (18/145)
+## Top Interview Questions (21/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -24,3 +24,6 @@
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0118.cpp)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0121.cpp)
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0125.cpp)
+* [136. Single Number](https://leetcode.com/problems/single-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0136.cpp)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0141.cpp)
+* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0160.cpp)
