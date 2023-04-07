@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (17/145)
+## Top Interview Questions (18/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -23,3 +23,4 @@
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0108.cpp) :star:
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0118.cpp)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0121.cpp)
+* [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0125.cpp)
