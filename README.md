@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (25/145)
+## Top Interview Questions (26/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -31,3 +31,4 @@
 * [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0171.cpp)
 * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0190.cpp) :star:
 * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0191.cpp) 
+* [202. Happy Number](https://leetcode.com/problems/happy-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0202.cpp) 
