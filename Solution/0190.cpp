@@ -23,7 +23,7 @@ Hint: Bitwise operator
 #include <iostream>
 class Solution {
 public:
-    uint32_t reverseBits(uint32_t n) { // fastest, divide and conquer O(nlogn)
+    uint32_t reverseBits(uint32_t n) { // fastest
         n = (n & 0xffff0000) >> 16 | (n & 0x0000ffff) << 16;
         n = (n & 0xff00ff00) >> 8 | (n & 0x00ff00ff) << 8;
         n = (n & 0xf0f0f0f0) >> 4 | (n & 0x0f0f0f0f) << 4;
