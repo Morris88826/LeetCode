@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (29/145)
+## Top Interview Questions (30/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -35,3 +35,4 @@
 * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0206.cpp)
 * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0217.cpp)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0234.cpp) :star:
+* [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0242.cpp)
