@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (34/145)
+## Top Interview Questions (37/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
