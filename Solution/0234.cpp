@@ -45,7 +45,7 @@ public:
         return compare(head, head);
     }
 
-    ListNode* reverse(ListNode* head){
+    ListNode* reverse(ListNode* head){ // reverse linked list
         if(head==NULL || head->next==NULL){
             return head;
         }
