@@ -40,3 +40,6 @@
 * [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0283.cpp)
 * [326. Power of Three](https://leetcode.com/problems/power-of-three/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0326.cpp)
 * [344. Reverse String](https://leetcode.com/problems/reverse-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0344.cpp)
+* [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0350.cpp)
+* [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0387.cpp)
+* [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0417.cpp)
