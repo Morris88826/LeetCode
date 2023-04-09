@@ -36,3 +36,6 @@
 * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0217.cpp)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0234.cpp) :star:
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0242.cpp)
+* [268. Missing Number](https://leetcode.com/problems/missing-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0268.cpp)
+* [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0283.cpp)
+* [326. Power of Three](https://leetcode.com/problems/power-of-three/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0326.cpp)
