@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (33/145)
+## Top Interview Questions (34/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -39,3 +39,4 @@
 * [268. Missing Number](https://leetcode.com/problems/missing-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0268.cpp)
 * [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0283.cpp)
 * [326. Power of Three](https://leetcode.com/problems/power-of-three/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0326.cpp)
+* [344. Reverse String](https://leetcode.com/problems/reverse-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0344.cpp)
