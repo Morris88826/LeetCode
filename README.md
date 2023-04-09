@@ -43,3 +43,5 @@
 * [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0350.cpp)
 * [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0387.cpp)
 * [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0417.cpp)
+
+### Medium
