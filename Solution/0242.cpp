@@ -18,6 +18,9 @@ using namespace std;
 
 class Solution {
 public:
+
+    // Time Complexity : O(NlogN + MlogM)
+    // Space: O(1)
     bool isAnagram(string s, string t) { // just sort the string
         sort(s.begin(), s.end());
         sort(t.begin(), t.end());
@@ -27,6 +30,8 @@ public:
         return false;
     }
 
+    // Time Complexity : O(N+M)
+    // Space: O(1), constant as well since there is only 26 characters
     bool isAnagram_v1(string s, string t) { // using unordered_map, hash table
         unordered_map<int,int> myMap;
         for(int i=0; i<s.length(); i++){
