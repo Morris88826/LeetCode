@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (37/145)
+## Top Interview Questions (38/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0001.cpp)
@@ -45,3 +45,4 @@
 * [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0417.cpp)
 
 ### Medium
+* [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0002.cpp)
