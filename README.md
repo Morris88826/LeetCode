@@ -46,4 +46,4 @@
 
 ### Medium
 * [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0002.cpp)
-* [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0003.cpp)
+* [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0003.cpp) :star:
