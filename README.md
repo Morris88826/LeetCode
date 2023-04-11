@@ -27,7 +27,7 @@
 * [136. Single Number](https://leetcode.com/problems/single-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0136.cpp)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0141.cpp)
 * [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0160.cpp) :star:
-* [169. Majority Element](https://leetcode.com/problems/majority-element/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/0169.cpp)
+* [169. Majority Element](https://leetcode.com/problems/majority-element/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0169.cpp)
 * [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0171.cpp)
 * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0190.cpp) :star:
 * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0191.cpp) 
