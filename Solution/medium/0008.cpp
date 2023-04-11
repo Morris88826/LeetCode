@@ -49,7 +49,7 @@ public:
                     }
                 }
                 result = result*10 + val;
-            }else{ // if not '0-9', ' ', '+', or '-'
+            }else{ // if not 0-9,  , +, or -
                 break;
             }
         }
