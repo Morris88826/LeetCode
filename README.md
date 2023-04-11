@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (40/145)
+## Top Interview Questions (42/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0001.cpp)
@@ -48,3 +48,5 @@
 * [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0002.cpp)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0003.cpp) :star:
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0005.cpp)
+* [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0007.cpp) :star:
+* [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0008.cpp)
