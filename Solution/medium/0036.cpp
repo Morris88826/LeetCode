@@ -31,10 +31,11 @@ public:
                     continue;
                 }
 
-                string key = "(" + std::to_string(board[i][j]) + ")";
-                string key1 = std::to_string(i) + key;
-                string key2 = key + std::to_string(j);
-                string key3 = std::to_string(i/3) + key + std::to_string(j/3);
+                string s(1,board[i][j]);
+                string key = "(" + s + ")";
+                string key1 = to_string(i) + key;
+                string key2 = key + to_string(j);
+                string key3 = to_string(i/3) + key + to_string(j/3);
                 
                 if(myMap.find(key1)!=myMap.end() || myMap.find(key2)!=myMap.end() || myMap.find(key3)!=myMap.end()){
                     return false;
