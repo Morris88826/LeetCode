@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (50/145)
+## Top Interview Questions (51/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0001.cpp)
@@ -58,3 +58,4 @@
 * [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0029.cpp) :star:
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0033.cpp)
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0034.cpp)
+* [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0036.cpp)
