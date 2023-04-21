@@ -1,6 +1,6 @@
 # LeetCode
 
-## Top Interview Questions (55/145)
+## Top Interview Questions (56/145)
 
 ### Easy
 * [1. Two Sum](https://leetcode.com/problems/two-sum/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0001.cpp)
@@ -63,3 +63,4 @@
 * [46. Permutations](https://leetcode.com/problems/permutations/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0046.cpp) :star:
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0048.cpp)
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0049.cpp)
+* [50. Pow(x, n)](https://leetcode.com/problems/powx-n/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0050.cpp)
