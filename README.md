@@ -65,3 +65,4 @@
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0049.cpp)
 * [50. Pow(x, n)](https://leetcode.com/problems/powx-n/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0050.cpp)
 * [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0054.cpp)
+* [55. Jump Game](https://leetcode.com/problems/jump-game/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0055.cpp)
