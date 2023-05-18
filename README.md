@@ -67,3 +67,4 @@
 * [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0054.cpp)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0055.cpp)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0056.cpp) :star:
+* [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0062.cpp)
