@@ -44,7 +44,7 @@ using namespace std;
 
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) { //fastest
+    int removeDuplicates(vector<int>& nums) { //fastest (important)
         int k = 1;
         for(int i=1; i<nums.size(); i++){
             if(nums[k-1]!=nums[i]){
@@ -81,5 +81,22 @@ public:
             }
         }
         return k;
+    }
+
+    int removeDuplicates_v3(vector<int>& nums) {
+        
+        int i = 0;
+        int j = nums.size()-1;
+        while((i+1)<=j){
+            if(nums[i]==nums[i+1]){
+                int tmp = nums[i+1];
+                nums.erase(nums.begin()+i+1);
+                nums.push_back(tmp);
+                j -= 1;
+            }else{
+                i += 1;
+            }
+        }
+        return i+1;
     }
 };

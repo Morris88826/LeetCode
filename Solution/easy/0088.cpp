@@ -52,4 +52,18 @@ public:
             i += 1;
         }
     }
+
+    void merge_v2(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        if(n==0)
+            return;
+
+        int j = 0;
+        for(int i=0; i<nums1.size(); i++){
+            if( j<n && (nums1[i]>nums2[j] || i>=(m+j))){
+                nums1.insert(nums1.begin()+i, nums2[j]);
+                nums1.pop_back();
+                j += 1;
+            }
+        }
+    }
 };

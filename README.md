@@ -9,6 +9,7 @@
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0020.cpp)
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0021.cpp)
 * [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0026.cpp)
+* [27. Remove Element](https://leetcode.com/problems/remove-element/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0027.cpp)
 * [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0028.cpp) :star:
   - Rabin-Karp Algorithm: Rolling Hash
   - Knuth-Morris-Pratt (KMP) Algorithm: find lps, i.e. longest proper suffix, and build the $\pi$ table
@@ -69,3 +70,4 @@
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0056.cpp) :star:
 * [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0062.cpp)
 * [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0073.cpp)
+* [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0080.cpp)
