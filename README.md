@@ -71,3 +71,4 @@
 * [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0062.cpp)
 * [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0073.cpp)
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0080.cpp)
+* [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0189.cpp) :start:
