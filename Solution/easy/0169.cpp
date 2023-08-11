@@ -17,6 +17,7 @@ Could you solve the problem in linear time and in O(1) space?
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 class Solution {
@@ -30,6 +31,24 @@ public:
                 lead = nums[i];
             }
             count += (nums[i]==lead)? 1: -1;
+        }
+        return lead;
+    }
+
+    int majorityElement_raw(vector<int>& nums) { // O(n), same but not as clean as the approach above
+        int counter = 0;
+        int lead = nums[0];
+        for(int i = 0; i<nums.size(); i++){
+            if(counter == 0){
+                lead = nums[i];
+                counter += 1;
+            }else{
+                if(lead == nums[i]){
+                    counter += 1;
+                }else{
+                    counter -= 1;
+                }
+            }
         }
         return lead;
     }
