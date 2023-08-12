@@ -22,6 +22,20 @@ using namespace std;
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
+        if(nums.size()==1)
+            return true;
+        int n = nums.size()-1;
+        int maxIdx = nums[0];
+        for(int i=1; i<nums.size(); i++){
+            if(i>maxIdx)
+                return false;
+            maxIdx = max(maxIdx, nums[i]+i);
+            if(maxIdx >= n)
+                return true;
+        }
+        return true;
+    }
+    bool canJump_v1(vector<int>& nums) {
         vector<bool> table(nums.size(), false);
         for(int i=nums.size()-1; i>=0; i--){
             int dist = nums.size()-1-i;
