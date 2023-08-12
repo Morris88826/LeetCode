@@ -46,6 +46,31 @@ public:
         return maxP;
     }
 
+    int maxProfit_v3(vector<int>& prices) {
+        if(prices.size()==1){
+            return 0;
+        }
+
+        int minIdx = 0;
+        int maxIdx = 0;
+        int maxP = 0;
+        for(int i=1; i<prices.size(); i++){
+            if(prices[i]<prices[minIdx]){
+                minIdx = i;
+                maxIdx = i;
+            }
+            else if(prices[i]>prices[maxIdx]){
+                maxIdx = i;
+            }
+
+            int profit = prices[maxIdx]-prices[minIdx];
+            if(profit>maxP){
+                maxP = profit;
+            }
+        }
+        return maxP;
+    }
+
     int maxProfit_v2(vector<int>& prices) { // faster, no need to have additional vector to store the DP result
         if(prices.size()==1){
             return 0;
