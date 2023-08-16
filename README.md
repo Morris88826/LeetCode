@@ -61,6 +61,7 @@
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0034.cpp)
 * [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0036.cpp)
 * [38. Count and Say](https://leetcode.com/problems/count-and-say/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0038.cpp)
+* [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0045.cpp) :star:
 * [46. Permutations](https://leetcode.com/problems/permutations/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0046.cpp) :star:
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0048.cpp)
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0049.cpp)
@@ -73,3 +74,6 @@
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0080.cpp)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0122.cpp)
 * [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0189.cpp) :star:
+* [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0238.cpp)
+* [274. H-Index](https://leetcode.com/problems/h-index/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0274.cpp)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0380.cpp)
