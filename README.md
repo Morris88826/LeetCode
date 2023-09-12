@@ -78,3 +78,6 @@
 * [274. H-Index](https://leetcode.com/problems/h-index/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0274.cpp)
 * [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0380.cpp)
 * [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/2812.cpp) :star
+
+### Hard
+* [2534. Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/2534.cpp) :star
