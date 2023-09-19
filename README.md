@@ -43,7 +43,9 @@
 * [344. Reverse String](https://leetcode.com/problems/reverse-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0344.cpp)
 * [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0350.cpp)
 * [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0387.cpp)
+* [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0409.cpp)
 * [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/0417.cpp)
+* [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/easy/2190.cpp)
 
 ### Medium
 * [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0002.cpp)
@@ -69,6 +71,7 @@
 * [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0054.cpp) :star:
 * [55. Jump Game](https://leetcode.com/problems/jump-game/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0055.cpp)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0056.cpp) :star:
+* [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0059.cpp)
 * [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0062.cpp)
 * [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0073.cpp)
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/), [[C++]](https://github.com/Morris88826/LeetCode/blob/main/Solution/medium/0080.cpp)
