@@ -54,7 +54,53 @@ using namespace std;
 
 class Solution {
 public:
+
     vector<int> timeTaken(vector<int>& arrival, vector<int>& state) {
+        int n = arrival.size();
+        vector<int> result(n);
+        queue<pair<int,int>> enter, exit;
+
+        for(int i=0; i<n; i++){
+            (state[i]==0)? enter.push(make_pair(i, arrival[i])) : exit.push(make_pair(i, arrival[i]));
+        }
+
+        int time = 0;
+        while(!enter.empty()&&!exit.empty()){
+            time = max(time, min(enter.front().second, exit.front().second));
+            if(exit.front().second <= enter.front().second){
+                while(!exit.empty() && exit.front().second<=time){
+                    result[exit.front().first] = time;
+                    time++;
+                    exit.pop();
+                }
+            }else{
+                while(!enter.empty() && enter.front().second <=time){
+                    result[enter.front().first] = time;
+                    time++;
+                    enter.pop();
+                }
+            }
+        }
+
+        while(!exit.empty()){
+            time = max(exit.front().second, time);
+            result[exit.front().first] = time;
+            time++;
+            exit.pop();
+        }
+
+        while(!enter.empty()){
+            time = max(enter.front().second, time); // maybe not arrive yet for current time
+            result[enter.front().first] = time;
+            time++;
+            enter.pop();
+        }
+
+        return result;
+    }
+
+
+    vector<int> timeTaken_v1(vector<int>& arrival, vector<int>& state) {
         
         map<int, vector<int>> groups;
         for(int i=0; i<arrival.size(); i++){

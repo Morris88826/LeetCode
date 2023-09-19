@@ -41,7 +41,99 @@ using namespace std;
 
 class Solution {
 public:
+
+    vector<pair<int,int>> movements = {{-1,0},{1,0},{0,-1},{0,1}}; 
+
+    vector<vector<int>> BFS(vector<vector<int>>grid){
+        int n = grid.size();
+        vector<vector<int>> safenessTable(n, vector<int>(n, 0));
+        vector<vector<bool>> visited(n, vector<bool>(n, false));
+
+        queue<pair<int,int>> waiting;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j]==1){
+                    waiting.push({i,j});
+                    safenessTable[i][j] = 0;
+                    visited[i][j] = true;
+                }
+            }
+        }
+
+        while(!waiting.empty()){
+            auto q = waiting.front();
+            waiting.pop();
+            int row = q.first;
+            int col = q.second;
+            int depth = safenessTable[row][col];
+
+            for(auto mv : movements){
+                int new_row = row - mv.first;
+                int new_col = col - mv.second;
+                if(0<=new_row && new_row<n && 0<=new_col && new_col<n && visited[new_row][new_col]!=true){
+                    waiting.push({new_row,new_col});
+                    safenessTable[new_row][new_col] = depth + 1;
+                    visited[new_row][new_col] = true;
+                }
+            }
+        }
+        return safenessTable;
+    }
+
+    vector<vector<pair<int,int>>> Dijkstra(vector<vector<int>> safenessTable){
+        int n = safenessTable.size();
+        vector<vector<pair<int,int>>> parents(n, vector<pair<int,int>>(n, {-1,-1}));
+        vector<vector<bool>> visited(n, vector<bool>(n, false));
+
+        priority_queue<pair<int, pair<int,int>>> pq;
+        pq.push(make_pair(safenessTable[0][0], make_pair(0,0)));
+        visited[0][0] = true;
+        while(!pq.empty()){
+            auto q = pq.top();
+            pq.pop();
+            int row = q.second.first;
+            int col = q.second.second;
+
+            for(auto mv : movements){
+                int new_row = row - mv.first;
+                int new_col = col - mv.second;
+
+                if(0<=new_row && new_row<n && 0<=new_col && new_col<n && visited[new_row][new_col]!=true){
+                    pq.push(make_pair(safenessTable[new_row][new_col], make_pair(new_row,new_col)));
+                    visited[new_row][new_col] = true; 
+                    parents[new_row][new_col] = {row, col};
+                }
+            }
+        }
+        return parents;
+    }
+
+
     int maximumSafenessFactor(vector<vector<int>>& grid) {
+        int n = grid.size();
+
+        if(grid[0][0] == 1 || grid[n-1][n-1]==1){
+            return 0;
+        }
+
+        vector<vector<int>> safenessTable = BFS(grid);
+        vector<vector<pair<int,int>>> parents = Dijkstra(safenessTable);
+
+        int safeFactor = INT_MAX;
+        auto node = make_pair(n-1, n-1);
+        while(node.first!=-1 || node.second!=-1){
+            int _safeFactor = safenessTable[node.first][node.second];
+            if(safeFactor>_safeFactor)
+                safeFactor = _safeFactor;
+            node = parents[node.first][node.second];
+        }
+
+        return safeFactor;
+    }
+
+
+
+    int maximumSafenessFactor_v1(vector<vector<int>>& grid) {
         int n = grid.size();
 
         if(grid[0][0] == 1 || grid[n-1][n-1]==1){
